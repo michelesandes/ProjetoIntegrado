@@ -9,7 +9,14 @@ public class App {
         int Resultado;
 
         Scanner teclado = new Scanner(System.in);
-        System.out.println(teclado + "Número digitado");
+        decimalNumero = teclado.nextInt();
+        if(decimalNumero == 5){
+            System.out.println (decimalNumero + "Número digitado");
+
+        }else{
+            System.out.println("tente de novo");
+        }
+        
 
 
 
